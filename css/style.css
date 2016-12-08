@@ -1,0 +1,63 @@
+html,body{
+    background: url(images/dark-blackboard.png);
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+
+.serif{
+    font-family: 'Droid Serif', serif;
+}
+
+.infographic{
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.infographic .header{
+    height: 160px;
+}
+
+.infographic .title{
+    font-size: 60pt;
+
+    color: red;
+    margin: 20px 10px 10px 10px;
+    padding:0;
+}
+.infographic .subtitle{
+    font-size: 1.6em;
+    margin:0;
+    padding:0;
+}
+.infographic .panel{
+    margin-top:30px;
+
+    border-top: 15px dotted #e7a61a;
+}
+.infographic .panel .title{
+    font-size:36pt;
+    color: lightblue;
+    margin-bottom:30px;
+}
+.infographic .panel .discussion{
+    font-size:18pt;
+    color: white;
+    margin:20px;
+}
+.infographic .panel .sideComment{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.infographic .panel .iconList{
+    text-align: center;
+    height:130px;
+    margin: 0 auto;
+    width: 440px;
+}
+.infographic .panel .iconList .icon{
+    float:left;
+    margin-left:20px;
+}
