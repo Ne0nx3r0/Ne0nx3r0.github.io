@@ -15,12 +15,8 @@ html,body{
     max-width: 80%;
 }
 
-.infographic .header{
-    height: 160px;
-}
-
 .infographic .title{
-    font-size: 60pt;
+    font-size: 54pt;
 
     color: red;
     margin: 20px 10px 10px 10px;
@@ -53,11 +49,29 @@ html,body{
 
 .infographic .panel .iconList{
     text-align: center;
-    height:130px;
+    height: 130px;
     margin: 0 auto;
     width: 440px;
 }
 .infographic .panel .iconList .icon{
+    float: left;
+    margin-left: 20px;
+}
+
+.infographic .panel .iconWithDescription{
+    clear: left;
+    margin: 40px auto;
+    width: 370px;
+}
+
+.infographic .panel .iconWithDescription .icon{
     float:left;
-    margin-left:20px;
+    width:130px;
+    text-align:center;
+    margin-top:-3px;
+}
+
+.infographic .panel .iconWithDescription .description{
+    text-align:left;
+    width:370px;
 }
