@@ -75,3 +75,18 @@ html,body{
     text-align:left;
     width:370px;
 }
+
+.infographic .chart{
+    width: 600px;
+    margin: 0 auto;
+}
+.infographic .chart .bar{
+    font: 10px;
+    background-color: steelblue;
+    text-align: left;
+    padding: 0;
+    margin: 5px;
+    color: white;
+    overflow: visible;
+    white-space: nowrap;
+}
