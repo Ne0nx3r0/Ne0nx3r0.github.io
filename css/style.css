@@ -90,3 +90,14 @@ html,body{
     overflow: visible;
     white-space: nowrap;
 }
+
+.citations{
+    width: 80%;
+    margin: 0 auto;
+    text-align:left;
+    color: #444;
+}
+.citations a{
+    display:block;
+    color: #444;
+}
